@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F24167641D83F07B00C8EEDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24167631D83F07B00C8EEDD /* main.m */; };
+		F24167671D83F07B00C8EEDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F24167661D83F07B00C8EEDD /* AppDelegate.m */; };
+		F241676A1D83F07B00C8EEDD /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24167691D83F07B00C8EEDD /* OneViewController.m */; };
+		F241676D1D83F07B00C8EEDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F241676B1D83F07B00C8EEDD /* Main.storyboard */; };
+		F241676F1D83F07B00C8EEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F241676E1D83F07B00C8EEDD /* Assets.xcassets */; };
+		F24167721D83F07B00C8EEDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24167701D83F07B00C8EEDD /* LaunchScreen.storyboard */; };
+		F241677D1D83F07B00C8EEDD /* OC_JS__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F241677C1D83F07B00C8EEDD /* OC_JS__Tests.m */; };
+		F24167881D83F07B00C8EEDD /* OC_JS__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24167871D83F07B00C8EEDD /* OC_JS__UITests.m */; };
+		F24167961D83F09400C8EEDD /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = F24167951D83F09400C8EEDD /* test.html */; };
+		F25FCCE51D84352F002D7E6D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25FCCE41D84352F002D7E6D /* SecondViewController.m */; };
+		F25FCCE81D84376A002D7E6D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25FCCE71D84376A002D7E6D /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F24167791D83F07B00C8EEDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24167571D83F07B00C8EEDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F241675E1D83F07B00C8EEDD;
+			remoteInfo = "OC与JS交互";
+		};
+		F24167841D83F07B00C8EEDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24167571D83F07B00C8EEDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F241675E1D83F07B00C8EEDD;
+			remoteInfo = "OC与JS交互";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F241675F1D83F07B00C8EEDD /* OC与JS交互.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC与JS交互.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24167631D83F07B00C8EEDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F24167651D83F07B00C8EEDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F24167661D83F07B00C8EEDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F24167681D83F07B00C8EEDD /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		F24167691D83F07B00C8EEDD /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		F241676C1D83F07B00C8EEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F241676E1D83F07B00C8EEDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F24167711D83F07B00C8EEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F24167731D83F07B00C8EEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24167781D83F07B00C8EEDD /* OC与JS交互Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC与JS交互Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F241677C1D83F07B00C8EEDD /* OC_JS__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_JS__Tests.m; sourceTree = "<group>"; };
+		F241677E1D83F07B00C8EEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24167831D83F07B00C8EEDD /* OC与JS交互UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC与JS交互UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24167871D83F07B00C8EEDD /* OC_JS__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_JS__UITests.m; sourceTree = "<group>"; };
+		F24167891D83F07B00C8EEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24167951D83F09400C8EEDD /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		F25FCCE31D84352F002D7E6D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F25FCCE41D84352F002D7E6D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F25FCCE61D84376A002D7E6D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F25FCCE71D84376A002D7E6D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F241675C1D83F07B00C8EEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24167751D83F07B00C8EEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24167801D83F07B00C8EEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24167561D83F07B00C8EEDD = {
+			isa = PBXGroup;
+			children = (
+				F24167611D83F07B00C8EEDD /* OC与JS交互 */,
+				F241677B1D83F07B00C8EEDD /* OC与JS交互Tests */,
+				F24167861D83F07B00C8EEDD /* OC与JS交互UITests */,
+				F24167601D83F07B00C8EEDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24167601D83F07B00C8EEDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F241675F1D83F07B00C8EEDD /* OC与JS交互.app */,
+				F24167781D83F07B00C8EEDD /* OC与JS交互Tests.xctest */,
+				F24167831D83F07B00C8EEDD /* OC与JS交互UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24167611D83F07B00C8EEDD /* OC与JS交互 */ = {
+			isa = PBXGroup;
+			children = (
+				F24167651D83F07B00C8EEDD /* AppDelegate.h */,
+				F24167661D83F07B00C8EEDD /* AppDelegate.m */,
+				F24167951D83F09400C8EEDD /* test.html */,
+				F25FCCE61D84376A002D7E6D /* RootViewController.h */,
+				F25FCCE71D84376A002D7E6D /* RootViewController.m */,
+				F24167681D83F07B00C8EEDD /* OneViewController.h */,
+				F24167691D83F07B00C8EEDD /* OneViewController.m */,
+				F25FCCE31D84352F002D7E6D /* SecondViewController.h */,
+				F25FCCE41D84352F002D7E6D /* SecondViewController.m */,
+				F241676B1D83F07B00C8EEDD /* Main.storyboard */,
+				F241676E1D83F07B00C8EEDD /* Assets.xcassets */,
+				F24167701D83F07B00C8EEDD /* LaunchScreen.storyboard */,
+				F24167731D83F07B00C8EEDD /* Info.plist */,
+				F24167621D83F07B00C8EEDD /* Supporting Files */,
+			);
+			path = "OC与JS交互";
+			sourceTree = "<group>";
+		};
+		F24167621D83F07B00C8EEDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F24167631D83F07B00C8EEDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F241677B1D83F07B00C8EEDD /* OC与JS交互Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F241677C1D83F07B00C8EEDD /* OC_JS__Tests.m */,
+				F241677E1D83F07B00C8EEDD /* Info.plist */,
+			);
+			path = "OC与JS交互Tests";
+			sourceTree = "<group>";
+		};
+		F24167861D83F07B00C8EEDD /* OC与JS交互UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F24167871D83F07B00C8EEDD /* OC_JS__UITests.m */,
+				F24167891D83F07B00C8EEDD /* Info.plist */,
+			);
+			path = "OC与JS交互UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F241675E1D83F07B00C8EEDD /* OC与JS交互 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F241678C1D83F07B00C8EEDD /* Build configuration list for PBXNativeTarget "OC与JS交互" */;
+			buildPhases = (
+				F241675B1D83F07B00C8EEDD /* Sources */,
+				F241675C1D83F07B00C8EEDD /* Frameworks */,
+				F241675D1D83F07B00C8EEDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC与JS交互";
+			productName = "OC与JS交互";
+			productReference = F241675F1D83F07B00C8EEDD /* OC与JS交互.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F24167771D83F07B00C8EEDD /* OC与JS交互Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F241678F1D83F07B00C8EEDD /* Build configuration list for PBXNativeTarget "OC与JS交互Tests" */;
+			buildPhases = (
+				F24167741D83F07B00C8EEDD /* Sources */,
+				F24167751D83F07B00C8EEDD /* Frameworks */,
+				F24167761D83F07B00C8EEDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F241677A1D83F07B00C8EEDD /* PBXTargetDependency */,
+			);
+			name = "OC与JS交互Tests";
+			productName = "OC与JS交互Tests";
+			productReference = F24167781D83F07B00C8EEDD /* OC与JS交互Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F24167821D83F07B00C8EEDD /* OC与JS交互UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24167921D83F07B00C8EEDD /* Build configuration list for PBXNativeTarget "OC与JS交互UITests" */;
+			buildPhases = (
+				F241677F1D83F07B00C8EEDD /* Sources */,
+				F24167801D83F07B00C8EEDD /* Frameworks */,
+				F24167811D83F07B00C8EEDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24167851D83F07B00C8EEDD /* PBXTargetDependency */,
+			);
+			name = "OC与JS交互UITests";
+			productName = "OC与JS交互UITests";
+			productReference = F24167831D83F07B00C8EEDD /* OC与JS交互UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24167571D83F07B00C8EEDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "7_______.";
+				TargetAttributes = {
+					F241675E1D83F07B00C8EEDD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U9HB7G7M5X;
+					};
+					F24167771D83F07B00C8EEDD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U9HB7G7M5X;
+						TestTargetID = F241675E1D83F07B00C8EEDD;
+					};
+					F24167821D83F07B00C8EEDD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U9HB7G7M5X;
+						TestTargetID = F241675E1D83F07B00C8EEDD;
+					};
+				};
+			};
+			buildConfigurationList = F241675A1D83F07B00C8EEDD /* Build configuration list for PBXProject "OC与JS交互" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F24167561D83F07B00C8EEDD;
+			productRefGroup = F24167601D83F07B00C8EEDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F241675E1D83F07B00C8EEDD /* OC与JS交互 */,
+				F24167771D83F07B00C8EEDD /* OC与JS交互Tests */,
+				F24167821D83F07B00C8EEDD /* OC与JS交互UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F241675D1D83F07B00C8EEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24167961D83F09400C8EEDD /* test.html in Resources */,
+				F24167721D83F07B00C8EEDD /* LaunchScreen.storyboard in Resources */,
+				F241676F1D83F07B00C8EEDD /* Assets.xcassets in Resources */,
+				F241676D1D83F07B00C8EEDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24167761D83F07B00C8EEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24167811D83F07B00C8EEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F241675B1D83F07B00C8EEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25FCCE51D84352F002D7E6D /* SecondViewController.m in Sources */,
+				F241676A1D83F07B00C8EEDD /* OneViewController.m in Sources */,
+				F24167671D83F07B00C8EEDD /* AppDelegate.m in Sources */,
+				F24167641D83F07B00C8EEDD /* main.m in Sources */,
+				F25FCCE81D84376A002D7E6D /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24167741D83F07B00C8EEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F241677D1D83F07B00C8EEDD /* OC_JS__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F241677F1D83F07B00C8EEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24167881D83F07B00C8EEDD /* OC_JS__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F241677A1D83F07B00C8EEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F241675E1D83F07B00C8EEDD /* OC与JS交互 */;
+			targetProxy = F24167791D83F07B00C8EEDD /* PBXContainerItemProxy */;
+		};
+		F24167851D83F07B00C8EEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F241675E1D83F07B00C8EEDD /* OC与JS交互 */;
+			targetProxy = F24167841D83F07B00C8EEDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F241676B1D83F07B00C8EEDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F241676C1D83F07B00C8EEDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F24167701D83F07B00C8EEDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24167711D83F07B00C8EEDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F241678A1D83F07B00C8EEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F241678B1D83F07B00C8EEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F241678D1D83F07B00C8EEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC与JS交互/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abche777test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F241678E1D83F07B00C8EEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC与JS交互/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abche777test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F24167901D83F07B00C8EEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OC与JS交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abche777.OC-JS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC与JS交互.app/OC与JS交互";
+			};
+			name = Debug;
+		};
+		F24167911D83F07B00C8EEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OC与JS交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abche777.OC-JS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC与JS交互.app/OC与JS交互";
+			};
+			name = Release;
+		};
+		F24167931D83F07B00C8EEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OC与JS交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abche777.OC-JS--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC与JS交互";
+			};
+			name = Debug;
+		};
+		F24167941D83F07B00C8EEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OC与JS交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abche777.OC-JS--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC与JS交互";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F241675A1D83F07B00C8EEDD /* Build configuration list for PBXProject "OC与JS交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F241678A1D83F07B00C8EEDD /* Debug */,
+				F241678B1D83F07B00C8EEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F241678C1D83F07B00C8EEDD /* Build configuration list for PBXNativeTarget "OC与JS交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F241678D1D83F07B00C8EEDD /* Debug */,
+				F241678E1D83F07B00C8EEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F241678F1D83F07B00C8EEDD /* Build configuration list for PBXNativeTarget "OC与JS交互Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24167901D83F07B00C8EEDD /* Debug */,
+				F24167911D83F07B00C8EEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24167921D83F07B00C8EEDD /* Build configuration list for PBXNativeTarget "OC与JS交互UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24167931D83F07B00C8EEDD /* Debug */,
+				F24167941D83F07B00C8EEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24167571D83F07B00C8EEDD /* Project object */;
+}
